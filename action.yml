@@ -1,0 +1,11 @@
+name: 'Precious Slack'
+description: 'Will send updates to slack based on github wiki pages being updated'
+author: 'kpfaulkner'
+on: gollum
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'bell'
+  color: 'yellow'
+
