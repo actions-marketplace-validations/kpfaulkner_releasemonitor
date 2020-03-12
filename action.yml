@@ -1,7 +1,7 @@
-name: 'Precious Slack'
+name: 'Release Monitor Slack'
 description: 'Will send updates to slack based on github wiki pages being updated'
 author: 'kpfaulkner'
-on: gollum
+on: release
 runs:
   using: 'docker'
   image: 'Dockerfile'
